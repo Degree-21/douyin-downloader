@@ -129,3 +129,5 @@ cookies:
 # 分号中的内容包括不限于以下键值对, 如果抖音需要更多的cookie自己加上就行了
 # cookie: "msToken=YOUR_MS_TOKEN; ttwid=YOUR_TTWID; odin_tt=YOUR_ODIN_TT; passport_csrf_token=YOUR_CSRF_TOKEN; sid_guard=YOUR_SID_GUARD; sessionid=YOUR_SESSION_ID; uid_tt=YOUR_UID_TT;"
 
+tencent_secret_id: YOUR_TENCENT_SECRET_ID_HERE
+tencent_secret_key: YOUR_TENCENT_SECRET_KEY_HERE

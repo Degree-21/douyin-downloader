@@ -248,7 +248,6 @@ def main():
         folderstyle=configModel["folderstyle"]
     )
 
-    print(configModel)
     # 处理每个链接
     for link in configModel["link"]:
         process_link(dy, dl, link)
@@ -274,6 +273,7 @@ def process_link(dy, dl, link):
             "aweme": handle_aweme_download,
             "live": handle_live_download
         }
+        print(handlers)
         
         handler = handlers.get(key_type)
         if handler:

@@ -13,7 +13,8 @@
 # 必选
 link:
   # 测试用户主页下载（已知可以工作）
-  - https://www.douyin.com/user/MS4wLjABAAAA6O7EZyfDRYXxJrUTpf91K3tmB4rBROkAw-nYMfld8ss
+  - https://www.douyin.com/user/MS4wLjABAAAAqp4B1TY1nufRMhnjJxQ4CifXSQY6g_nOyqYkQb4nkJXNWrL1XkFOgEh7KIuwCVwQ
+  - https://www.douyin.com/user/MS4wLjABAAAAujlM9ftdmE2s2iJdZa56RbWlaWd-GL25yx1s9aivmDBqpFoCgVUEyhAF3SvH9bhl
   # 测试单个视频下载
   # - https://v.douyin.com/iRGu2mBL/
   # -  https://v.douyin.com/kVefc81/
@@ -72,8 +73,8 @@ mode:
 # 下载作品个数设置
 # 可选
 number:
-  post: 1     # 主页下作品下载个数设置, 默认为0 全部下载
-  like: 3     # 主页下喜欢下载个数设置, 默认为0 全部下载
+  post: 0     # 主页下作品下载个数设置, 默认为0 全部下载
+  like: 0     # 主页下喜欢下载个数设置, 默认为0 全部下载
   allmix: 1   # 主页下合集下载个数设置, 默认为0 全部下载
   mix: 3      # 单个合集下作品下载个数设置, 默认为0 全部下载
   music: 3    # 音乐(原声)下作品下载个数设置, 默认为0 全部下载
@@ -111,11 +112,11 @@ cookies:
   # passport_csrf_token: xxx
   # sid_guard: xxx
 
-  msToken: 710-fIIacqPfoNUNM8EKjH2ev0veFV2YZCtCfs_HoN7kjpBKubLAODdh0nStKywolHK2nsJFHmdimUN23q-lo41pxjuiNMoqG1p_yUoIKU0CJ9bX-Q0638LXozcxspQnrzDnHB4M_3Hu3GljVuPYvv-8nHrxp4Xqkw-Bcr0MeothxDuPtHlEBA==
-  ttwid: 1%7Cxo2A_Uas39HcSPeQYZRGlCLpHonxCq5l8gMlrUPsh3I%7C1733400452%7C9f770c01cd093794153133a14108c93b5b6e6e18971372c21ecffe37f1938da0
-  odin_tt: a19f20351de5ed35a078f09115d098328b025656113ec0e35dfc4f7e1cf04dea5edd7d8176cf7070e0ff8f53414adeb8
-  passport_csrf_token: c2a7091feddce96551be4436e03ca3f3
-  sid_guard: 5e5adf6c506e880b1e0959afb5f6cb80%7C1739188609%7C5183984%7CFri%2C+11-Apr-2025+11%3A56%3A33+GMT
+  msToken: cf8SlBAR0WAXmhNPE-MUsPxioIMa_T8_eDBHeEiG30swcqRiWgh4rl6zsXqybyON_5nVa_LzSF-6S4LiAEs0tySVqWWbna6pUs71HZFCJ1s6Imm2ak3xcRxOP7MoTJDYpmw383kmqo5-y_dr2qhAUxSZxuSr6rzHSJM6tHtewz4HjJkXmYZ3lA%3D%3D
+  ttwid: 1%7Ct1PSaHd5rPZWA-sdF71lAHxM5a0ylGeBgUySDkQ_KEQ%7C1750040795%7C0f31192d9e244c07e843d1be515c812d2449884354debc67333fcc76b9f9e9e0
+  odin_tt: 9afe13130167315711adcc8c9f3fec896fac8bc7d5b8ba78ae6b436169e99be4bbde3baafa79bac4cd5d0c3d3569255b9431ebdfc70935811c81a3b4550e9c71
+  passport_csrf_token: 97693546ddae44b209af02702f9db337
+  sid_guard: 91a9983ab2cd6f2781a96474657f8d9a%7C1750040813%7C5184000%7CFri%2C+15-Aug-2025+02%3A26%3A53+GMT
 
 # cookie 请登录网页抖音后F12查看
 # cookies 和 cookie 二选一, 要使用这种形式, 请注释上面的cookies及包含的所有键值对

@@ -248,6 +248,7 @@ def main():
         folderstyle=configModel["folderstyle"]
     )
 
+    print(configModel)
     # 处理每个链接
     for link in configModel["link"]:
         process_link(dy, dl, link)
